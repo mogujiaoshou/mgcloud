@@ -1,1 +1,8 @@
+com\mushroom\springboot\entity\Person.class
+com\mushroom\springboot\controller\Test.class
+com\mushroom\springboot\controller\UserInfo.class
+com\mushroom\springboot\controller\RT.class
+com\mushroom\springboot\controller\RT$1.class
 com\mushroom\springboot\SpringbootApplication.class
+com\mushroom\springboot\controller\LambdaController.class
+com\mushroom\springboot\service\MyLambdaInterface.class

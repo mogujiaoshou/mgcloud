@@ -2,11 +2,11 @@ package com.mushroom.springboot.controller;
 
 import com.mushroom.springboot.entity.Person;
 import com.mushroom.springboot.service.MyLambdaInterface;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
@@ -33,7 +33,7 @@ public class LambdaController {
         //return personOpt.orElse(new Person("Unknow","UnKnow",0)).toString();
         //return personOpt.orElseGet(() -> new Person("Intel","Yes",18)).toString();
         personOpt.orElseThrow(() -> new RuntimeException("Yes,Your Program have a Exception"));
-        return personOpt.orElseGet(LambdaController::getPerson).toString();
+        return personOpt.orElseGet(LambdaController::getPerson).toString(); 
     }
 
     public void lambdaInterface(){
@@ -55,4 +55,6 @@ public class LambdaController {
     public static Person getPerson(){
         return new Person("AMD","Yes",28);
     }
+
+
 }

@@ -1,7 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.mushroom.springboot.SpringbootApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.134 s <<< FAILURE! - in com.mushroom.springboot.SpringbootApplicationTests
-initializationError(com.mushroom.springboot.SpringbootApplicationTests)  Time elapsed: 0.004 s  <<< ERROR!
-java.lang.Exception: No runnable methods
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.686 s - in com.mushroom.springboot.SpringbootApplicationTests
